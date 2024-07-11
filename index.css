@@ -199,6 +199,26 @@ nav ul li a:hover {
     z-index: 0;
 }
 
+/* Video */
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.video h2 {
+    font-size: 2em;
+}
+
+.video iframe {
+    margin: 20px 0;
+}
+
+
 /* Footer */
 footer {
     background-color: #f6eae1;
