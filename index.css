@@ -11,6 +11,7 @@ header {
     padding: 10px;
 }
 
+/* Navigation bar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -70,6 +71,7 @@ nav ul li a:hover {
     margin-left: 5px;
 }
 
+/* Hero banner */
 .hero {
     text-align: center;
     padding: 50px 20px;
@@ -117,6 +119,7 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+/* New Collection */
 .new-collection {
     padding: 50px 20px;
     text-align: center;
@@ -149,6 +152,7 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
+/* About */
 .about {
     padding: 50px 20px;
     text-align: center;
@@ -195,6 +199,7 @@ nav ul li a:hover {
     z-index: 0;
 }
 
+/* Footer */
 footer {
     background-color: #f6eae1;
     padding: 20px;
