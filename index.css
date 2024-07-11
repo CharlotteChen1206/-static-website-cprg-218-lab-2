@@ -108,6 +108,7 @@ nav ul li a:hover {
 
 .hero p {
     margin: 10px 0;
+    line-height: 30px;
 }
 
 .shop-now {
@@ -133,6 +134,10 @@ nav ul li a:hover {
 .new-collection h2 {
     font-size: 3em;
     margin-bottom: 20px;
+}
+
+.new-collection p{
+    line-height: 30px;
 }
 
 .gallery {
