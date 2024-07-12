@@ -17,10 +17,10 @@
                 <span>Bella Cosmetics</span>
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Video</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#accordion">FAQs</a></li>
             </ul>
             <div class="auth">
                 <a href="#">Log in/Sign up</a>
@@ -46,9 +46,10 @@
         </div>
     </section>
     <hr width="80%">
-    <section class="new-collection">
+    <section class="new-collection" id="shop">
         <h2>New Collection</h2>
-        <p>Explore our curated selection of beauty essentials and indulgent wellness products <br> designed to elevate your
+        <p>Explore our curated selection of beauty essentials and indulgent wellness products <br> designed to elevate
+            your
             daily self-care rituals.</p>
         <div class="gallery">
             <div class="gallery-item">
@@ -80,7 +81,7 @@
 
     <hr width="80%">
 
-    <section class="about">
+    <section class="about" id="about">
         <h2>About Bella</h2>
         <div class="about-content">
             <p>Since its inception in 2000, Bella Cosmetics has established itself as a pioneering force in the
@@ -101,10 +102,52 @@
     </section>
 
     <hr width="80%">
-    <section class="video">
+    <section class="video" id="video">
         <h2>Video</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/OrxN-3TBSM8" frameborder="0" allowfullscreen></iframe>
-        <p>If the video does not load, please <a href="https://www.youtube.com/watch?v=OrxN-3TBSM8" target="_blank">click here to watch on YouTube</a>.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OrxN-3TBSM8" frameborder="0"
+            allowfullscreen></iframe>
+        <p>If the video does not load, please <a href="https://www.youtube.com/watch?v=OrxN-3TBSM8"
+                target="_blank">click here to watch on YouTube</a>.</p>
+    </section>
+
+<hr width="80%">
+
+    <section class="accordion" id="accordion">
+        <h2>FAQs</h2>
+        <div class="accordion-item">
+            <input type="checkbox" id="item1" class="accordion-input">
+            <label for="item1" class="accordion-header">
+                <span>What is Bella Cosmetics' return policy?</span>
+                <span class="arrow">▼</span>
+            </label>
+            <div class="accordion-body">
+                <p>We offer a 30-day return policy on all products. Please contact our support team for more details.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <input type="checkbox" id="item2" class="accordion-input">
+            <label for="item2" class="accordion-header">
+                <span>Do you offer international shipping?</span>
+                <span class="arrow">▼</span>
+            </label>
+            <div class="accordion-body">
+                <p>Yes, we ship our products worldwide. Shipping rates and times vary by location.</p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <input type="checkbox" id="item3" class="accordion-input">
+            <label for="item3" class="accordion-header">
+                <span>Does Bella cosmetics test on animals?</span>
+                <span class="arrow">▼</span>
+            </label>
+            <div class="accordion-body">
+                <p>Bella Cosmetics is certified by PETA as a 100% cruelty-free brand, and you will find us listed on
+                    their website. Remaining a cruelty-free brand is extremely important to us, as it is to so many of
+                    you! Bella Cosmetics has never tested products on animals, nor do we use animal hair in our
+                    brushes—and we have absolutely no plans to change that.</p>
+            </div>
+        </div>
     </section>
 
     <footer>

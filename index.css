@@ -132,7 +132,7 @@ nav ul li a:hover {
 }
 
 .new-collection h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
@@ -168,7 +168,7 @@ nav ul li a:hover {
 }
 
 .about h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
@@ -221,13 +221,62 @@ nav ul li a:hover {
 }
 
 .video h2 {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .video iframe {
     margin: 20px 0;
 }
 
+/* Accordion */
+.accordion {
+    padding: 20px;
+}
+ 
+.accordion-item {
+    margin-bottom: 10px;
+}
+ 
+.accordion-input {
+    display: none;
+}
+
+.accordion h2{
+    font-size: 2.5em;
+text-align: center;
+}
+
+.accordion-header {
+    background: #FFF1E7;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 700;
+}
+ 
+.accordion-body {
+    display: none;
+    padding: 10px;
+    background: #fff;
+}
+ 
+.accordion-input:checked + .accordion-header + .accordion-body {
+    display: block;
+}
+ 
+.accordion-input:checked + .accordion-header .arrow {
+    transform: rotate(180deg);
+}
+ 
+.accordion-header .arrow {
+    transition: transform 0.3s ease;
+}
 
 /* Footer */
 footer {
